@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Multiple Audio Sources</title>
+  </head>
+
+  <body>
+    <h1 align="center">HTML5 Audio with Multiple Sources</h1>
+
+    <hr />
+
+    <p>The browser will automatically play the first supported audio format.</p>
+
+    <audio controls>
+      <source
+        src="../assets/interstellar-audio.mp3"
+        type="audio/mpeg"
+        title="mp3 audio"
+      />
+
+      <source src="../assets/sunflower_spider_ver.ogg" type="audio/ogg" />
+
+      <source src="../assets/harry-potter-audio.wav" type="audio/wav" />
+
+      Your browser does not support HTML5 Audio.
+    </audio>
+
+    <!-- it plays whichever audio is loaded first -->
+
+    <p>View Home page : <a href="./audio1.html">Home Page</a></p>
+  </body>
+</html>
+
+
+
